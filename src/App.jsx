@@ -10,11 +10,12 @@ function App() {
   return (
     <>
       <div>
+        <h1>La mia prima pagina con REACT</h1>
         <ImageComponent image="https:/placebear.com/400/400" imageDescription="Immagine Orso" />
       </div >
-      <h1>La mia prima pagina con REACT</h1>
+      <h1>Bottoni </h1>
       <div className="card">
-        <InputField pHolder="il tuo nome" btnHolder="INVIA" />
+        <InputField className="inputField" formName="il tuo nome" formSurname="il tuo cognome" formEmail="la tua mail" formPassword="scegli una password" btnHolder="INVIA" />
         <ButtonComponents btnText="Premi qui"></ButtonComponents>
         <p>
 
